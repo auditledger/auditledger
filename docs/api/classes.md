@@ -149,7 +149,7 @@ Available storage providers.
 
 ### ComplianceOptions
 
-Compliance framework configuration.
+Compliance framework configuration. Supports SOC 2, HIPAA, PCI DSS, and GDPR compliance frameworks through Framework Helpers.
 
 === "Signature"
 
@@ -471,4 +471,5 @@ Authentication result enumeration.
 - **[SOC 2 Events](soc2-events.md)** - SOC 2 Framework Helper reference
 - **[HIPAA Events](hipaa-events.md)** - HIPAA Framework Helper reference
 - **[PCI DSS Events](pcidss-events.md)** - PCI DSS Framework Helper reference
+- **[GDPR Events](gdpr-events.md)** - GDPR Framework Helper reference
 

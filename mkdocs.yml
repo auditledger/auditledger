@@ -78,6 +78,7 @@ nav:
       - SOC 2 Events: api/soc2-events.md
       - HIPAA Events: api/hipaa-events.md
       - PCI DSS Events: api/pcidss-events.md
+      - GDPR Events: api/gdpr-events.md
   - Deployment:
     - Overview: deployment/overview.md
     - Configuration: deployment/configuration.md

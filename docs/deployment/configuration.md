@@ -79,6 +79,24 @@ Optionally specify the environment for better organization:
 options.Compliance.Environment = "Production";  // Optional: "Development", "Staging", "Production"
 ```
 
+### GDPR Support
+
+GDPR compliance is supported through the GDPR Framework Helpers. The same `ComplianceOptions` configuration applies to all compliance frameworks (SOC 2, HIPAA, PCI DSS, and GDPR):
+
+```csharp
+options.Compliance.OrganizationId = "your-company-id";
+options.Compliance.Environment = "Production";
+
+// Use GDPR Framework Helpers for GDPR-specific events
+var gdprEvent = GdprEvents.PersonalDataAccessed(
+    dataSubjectId: "user-123",
+    actorUserId: "support-456",
+    lawfulBasis: "consent"
+);
+```
+
+For GDPR-specific event logging, see the [GDPR Events](../api/gdpr-events.md) documentation.
+
 ## Environment-Specific Configuration
 
 ### Development

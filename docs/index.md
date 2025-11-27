@@ -10,7 +10,7 @@ hide:
 
 ### Tamper-Proof Audit Logging & Compliance for .NET
 
-Infrastructure as Code meets compliance. Deploy with Terraform for AWS and Azure. SOC 2, HIPAA, and PCI DSS compliance with complete data sovereignty.
+Infrastructure as Code meets compliance. Deploy with Terraform for AWS and Azure. SOC 2, HIPAA, PCI DSS, and GDPR compliance with complete data sovereignty.
 
 <div class="hero-buttons" markdown>
 [Get Started :material-rocket-launch:](getting-started/quick-start.md){ .md-button .md-button--primary }
@@ -47,7 +47,7 @@ Every event is cryptographically hashed and linked in chains. **Tampering is imm
 
 ### Unified Compliance
 
-One .NET SDK for **SOC 2, HIPAA, and PCI DSS**. Pre-built compliance helpers, type-safe event logging, and cryptographic verification. Stop juggling multiple compliance systems.
+One .NET SDK for **SOC 2, HIPAA, PCI DSS, and GDPR**. Pre-built compliance helpers, type-safe event logging, and cryptographic verification. Stop juggling multiple compliance systems.
 
 </div>
 
@@ -131,6 +131,22 @@ Deploy with **Terraform modules** for AWS and Azure. Automated infrastructure pr
 
 </div>
 
+<div class="feature-card" markdown>
+<span class="feature-icon">:material-shield-account:</span>
+
+### GDPR Compliance
+
+**General Data Protection Regulation**
+
+- Personal data access and processing logging
+- Consent management and withdrawal tracking
+- Data subject rights (access, erasure, portability)
+- Data breach notification support
+- Lawful basis tracking (Article 6)
+- Right to be forgotten (Article 17)
+
+</div>
+
 </div>
 
 ---
@@ -146,7 +162,7 @@ Deploy with **Terraform modules** for AWS and Azure. Automated infrastructure pr
 
 - [x] AWS S3 and Azure Blob storage
 - [x] Cryptographic event chains (SHA-256 + HMAC)
-- [x] SOC 2, HIPAA, PCI DSS Framework Helpers
+- [x] SOC 2, HIPAA, PCI DSS, GDPR Framework Helpers
 - [x] No API keys or external services
 - [x] .NET 9.0 with dependency injection
 - [x] Complete data sovereignty

@@ -338,6 +338,7 @@ Creates an audit log generation event for HIPAA 45 CFR 164.530 compliance.
 
 - **[SOC 2 Events](soc2-events.md)** - SOC 2 Framework Helper reference
 - **[PCI DSS Events](pcidss-events.md)** - PCI DSS Framework Helper reference
+- **[GDPR Events](gdpr-events.md)** - GDPR Framework Helper reference
 - **[API Overview](overview.md)** - Complete API reference
 - **[Quick Start](../getting-started/quick-start.md)** - Get started in 5 minutes
 

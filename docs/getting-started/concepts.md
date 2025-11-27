@@ -1,6 +1,6 @@
 # Core Concepts
 
-Understanding the fundamental concepts behind Audit Ledger will help you use it effectively for SOC 2, HIPAA, and PCI DSS compliance.
+Understanding the fundamental concepts behind Audit Ledger will help you use it effectively for SOC 2, HIPAA, PCI DSS, and GDPR compliance.
 
 ---
 
@@ -76,14 +76,14 @@ Your Application → Audit Ledger .NET SDK → Your Cloud Storage
 
 ## :material-shield-check: Framework Helpers
 
-Audit Ledger provides type-safe helpers for SOC 2, HIPAA, and PCI DSS compliance:
+Audit Ledger provides type-safe helpers for SOC 2, HIPAA, PCI DSS, and GDPR compliance:
 
 ```csharp
 // SOC 2 - User authentication
-var soc2Event = Soc2Events.UserLogin(
+var soc2Event = Soc2Events.UserAuthentication(
     userId: "user123",
-    ipAddress: "192.168.1.100",
-    success: true
+    sessionId: "session456",
+    result: AuthenticationResult.Success
 );
 
 // HIPAA - Patient record access
@@ -95,8 +95,17 @@ var hipaaEvent = HipaaEvents.PatientRecordAccessed(
 
 // PCI DSS - Payment data access
 var pciEvent = PciDssEvents.CardholderDataAccessed(
-    maskedPan: "****-****-****-1234",
-    merchantId: "MERCH_001"
+    transactionId: "txn-123",
+    merchantId: "MERCH_001",
+    actorUserId: "processor-456"
+);
+
+// GDPR - Personal data access
+var gdprEvent = GdprEvents.PersonalDataAccessed(
+    dataSubjectId: "user-123",
+    actorUserId: "support-456",
+    dataCategory: "contact_information",
+    lawfulBasis: "consent"
 );
 ```
 
