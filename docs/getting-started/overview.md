@@ -1,6 +1,6 @@
 # Overview
 
-Audit Ledger is a free, open-source .NET SDK that provides **tamper-proof audit logging and compliance reporting** for SOC 2, HIPAA, and PCI DSS requirements. Built for regulated companies that need **complete data sovereignty**—your audit data stays on your infrastructure (AWS S3 or Azure Blob Storage), with no external dependencies or API keys required. Deploy with Terraform modules for automated infrastructure provisioning.
+Audit Ledger is a free, open-source .NET SDK that provides **tamper-proof audit logging and compliance reporting** for SOC 2, HIPAA, PCI DSS, and GDPR requirements. Built for regulated companies that need **complete data sovereignty**—your audit data stays on your infrastructure (AWS S3 or Azure Blob Storage), with no external dependencies or API keys required. Deploy with Terraform modules for automated infrastructure provisioning.
 
 ---
 

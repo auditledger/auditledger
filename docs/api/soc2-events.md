@@ -320,6 +320,7 @@ Creates a system configuration change event for SOC 2 Security (CC7.1) complianc
 
 - **[HIPAA Events](hipaa-events.md)** - HIPAA Framework Helper reference
 - **[PCI DSS Events](pcidss-events.md)** - PCI DSS Framework Helper reference
+- **[GDPR Events](gdpr-events.md)** - GDPR Framework Helper reference
 - **[API Overview](overview.md)** - Complete API reference
 - **[Quick Start](../getting-started/quick-start.md)** - Get started in 5 minutes
 

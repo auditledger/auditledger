@@ -283,11 +283,31 @@ Framework Helper for PCI DSS Requirements compliance.
 
 ---
 
+### [GDPR Events →](gdpr-events.md)
+
+Framework Helper for GDPR (General Data Protection Regulation) compliance.
+
+- `PersonalDataAccessed()` - Personal data access logging
+- `PersonalDataProcessed()` - Data processing with lawful basis
+- `ConsentGiven()` - Consent management
+- `ConsentWithdrawn()` - Consent withdrawal
+- `DataSubjectRequest()` - Data subject rights requests
+- `DataBreach()` - Data breach notification
+- `DataErased()` - Right to erasure ("right to be forgotten")
+- `DataExported()` - Right to data portability
+- `ProcessingRestricted()` - Right to restriction of processing
+- `DataRectified()` - Right to rectification
+
+[View GDPR Events Documentation →](gdpr-events.md)
+
+---
+
 ## Next Steps
 
 - **[Classes & Types](classes.md)** - Configuration classes, result types, and data structures
 - **[SOC 2 Events](soc2-events.md)** - Complete SOC 2 Framework Helper reference
 - **[HIPAA Events](hipaa-events.md)** - Complete HIPAA Framework Helper reference
 - **[PCI DSS Events](pcidss-events.md)** - Complete PCI DSS Framework Helper reference
+- **[GDPR Events](gdpr-events.md)** - Complete GDPR Framework Helper reference
 - **[Quick Start](../getting-started/quick-start.md)** - Get started in 5 minutes
 - **[Deployment](../deployment/overview.md)** - Deploy to production
